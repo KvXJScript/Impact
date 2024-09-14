@@ -3,7 +3,7 @@ import { RoutePath } from "src/routes";
 import { useQuery } from '@tanstack/react-query';
 import { CategoryType } from "src/components";
 import { QueryKeys, fetchCategories } from "src/api";
-import { useAppContext } from "src/Context";
+import { useAppContext } from "src/context";
 
 export const Main = () => {
     

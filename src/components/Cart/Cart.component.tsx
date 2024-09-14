@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import {RoutePath} from "src/routes";
-import {useAppContext} from "src/Context";
+import {useAppContext} from "src/context";
 
 export const Cart = () => {
     const { cart, setCart } = useAppContext();

@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import { RoutePath } from "src/routes";
 import { Cart, Category, Main, NotFound } from "src/components";
-import { AppProvider } from "src/Context";
+import { AppProvider } from "src/context";
 
 const router = createBrowserRouter([
     {
